@@ -2,15 +2,7 @@ import firebase from "firebase/app";
 import "firebase/messaging";
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyBURk1DPcMV4py-nVrZK3Sa5_l772kPXY0",
-  authDomain: "fcmtest-446ee.firebaseapp.com",
-  projectId: "fcmtest-446ee",
-  storageBucket: "fcmtest-446ee.appspot.com",
-  messagingSenderId: "691407107590",
-  appId: "1:691407107590:web:42d095348d482b560ff587",
-  measurementId: "G-FMNFYZEX9W",
-};
+const firebaseConfig = {};
 
 firebase.initializeApp(firebaseConfig);
 
